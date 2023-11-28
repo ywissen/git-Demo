@@ -13,7 +13,7 @@ public class GitController {
 	
 	@GetMapping("/order/")
 	public String getOrderDetails(@RequestBody Order order) {
-		System.out.println("I am devbeloper 1 first Dev");
+		System.out.println("I am developer 1st commit");
 		return order.getOname()+" "+order.getOid()+" "+order.getCost();
 	}
 
