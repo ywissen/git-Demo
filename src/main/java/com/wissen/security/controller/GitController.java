@@ -14,6 +14,7 @@ public class GitController {
 	@GetMapping("/order/")
 	public String getOrderDetails(@RequestBody Order order) {
 		System.out.println("i am modifiying by dev-1");
+		System.out.println("I am devbeloper 2 Second Dev");
 		return order.getOname()+" "+order.getOid()+" "+order.getCost();
 	}
 
